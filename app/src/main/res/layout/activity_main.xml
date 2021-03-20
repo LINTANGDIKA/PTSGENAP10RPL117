@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:gravity="center|top"
+        android:text="Bahasa Indonesia"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/row" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/masuk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nomor Telepon, email, atau nama pengguna"
+        android:textSize="15dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:background="@drawable/login"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Kata Sandi"
+        android:textSize="15dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:background="@drawable/login"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/colorbutton"
+        android:text="Masuk"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        app:backgroundTint="#458EFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lupa detail informasi masuk anda?"
+        android:textColor="#ADACAC"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:layout_marginRight="120dp"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="Dapatkan Bantuan"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="459dp"
+        android:gravity="center"
+        android:text="Untuk Masuk"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:text="(FB) Masuk Sebagai @username"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+        app:backgroundTint="#458EFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidak Punya Akun? "
+        android:textColor="#ADACAC"
+        android:layout_marginTop="590dp"
+        android:gravity="center"
+        android:layout_marginRight="90dp"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:text="Buat Akun"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+</RelativeLayout>
