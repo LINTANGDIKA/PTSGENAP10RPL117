@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="115dp"
+            android:id="@+id/image"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:id="@+id/namaLengkap"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="105dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notelp"
+            android:text="0855555555555"
+            android:textSize="20dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginTop="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pelajar"
+            android:id="@+id/status"
+            android:textSize="20dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginTop="80dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
