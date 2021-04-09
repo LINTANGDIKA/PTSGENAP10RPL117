@@ -1,5 +1,6 @@
 package com.example.ptsgenap10rpl117;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +22,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
     private ArrayList<User> userlist;
 
 
-
     @NonNull
     @Override
     public UserViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -41,7 +41,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
 
     @Override
     public int getItemCount() {
-        return userlist.size();
+        int size = userlist.size();
+        return size;
     }
 
     public class UserViewHolder extends RecyclerView.ViewHolder {

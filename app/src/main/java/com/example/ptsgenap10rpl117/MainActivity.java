@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Anda Berhasil Masuk", Toast.LENGTH_SHORT).show();
                     Intent user = new Intent( MainActivity.this, MainUser.class);
                     startActivity(user);
-                    Intent receiveIntent = getIntent();
-                    Bundle bundle = receiveIntent.getExtras();
+
                 }else {
                     Toast.makeText(MainActivity.this,"Nama Pengguna/Email/ Nomor atau Password Salah!",Toast.LENGTH_SHORT).show();
                 }

@@ -5,12 +5,7 @@ public class User {
     private String namaLengkap, notelp, pelajar;
     private int image;
 
-    public User(String namaLengkap, String notelp, String pelajar, int image) {
-        this.namaLengkap = namaLengkap;
-        this.notelp = notelp;
-        this.pelajar = pelajar;
-        this.image = image;
-    }
+
 
     public String getNamaLengkap() {
         return namaLengkap;
