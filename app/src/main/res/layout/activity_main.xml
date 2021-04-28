@@ -29,6 +29,7 @@
         android:id="@+id/masuk"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:inputType="textEmailAddress"
         android:hint="Nomor Telepon, email, atau nama pengguna"
         android:textSize="15dp"
         android:layout_marginTop="240dp"

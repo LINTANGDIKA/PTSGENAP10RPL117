@@ -2,10 +2,14 @@ package com.example.ptsgenap10rpl117;
 
 public class User {
 
-    private String namaLengkap, notelp, pelajar;
-    private int image;
+    public User(String namaLengkap, String notelp, String pelajar, String image) {
+        this.namaLengkap = namaLengkap;
+        this.notelp = notelp;
+        this.pelajar = pelajar;
+        this.image = image;
+    }
 
-
+    private String namaLengkap, notelp, pelajar,image;
 
     public String getNamaLengkap() {
         return namaLengkap;
@@ -31,14 +35,11 @@ public class User {
         this.pelajar = pelajar;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
-
-
-
 }
